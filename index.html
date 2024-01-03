@@ -1,0 +1,293 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="webpage/bootstrap.min.css" />
+    <script language="javascript" src="webpage/jquery.min.js"></script>
+    <script language="javascript" src="webpage/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="webpage/cssReset.css" />
+    <link rel="icon" href="myfavicon.ico" type="image/x-icon" />
+    <title>Puhe Hao@NJUPT</title>
+    <meta name="description" content="Puhe Hao's Homepage - NJUPT CS">
+    <meta name="keywords" content="Puhe Hao, NJUPT">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167316452-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167316452-1');
+    </script>
+    <style>
+        ul.no-bullets {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <style type='text/css'>
+        body {
+            font-family: Georgia, "Simsum";
+            font-size: 15.5px;
+        }
+
+        /*
+            div.content:
+                provide the content div in the middle
+        */
+        body div.content {
+            /*width:1280px;*/
+            /* width:905px; */
+            width: 60%;
+            margin: 0 auto;
+            line-height: 25px;
+            min-width: 700px;
+            text-align: justify;
+        }
+
+        /*
+            header wrapper
+        */
+        body div.header {
+            background-color: #2196F3;
+        }
+
+        body div.header>div.content {
+            padding: 15px;
+
+        }
+
+        div.footer {
+            padding: 32px 0px 28px 10px;
+            /* padding:40px, 100px, 10px, 0; */
+        }
+
+        /*
+            utils css
+        */
+        div.white-text {
+            color: white;
+        }
+
+        div.content>div.title {
+            padding: 16px 0 26px 0;
+            /* border-top:1px silver solid; */
+            margin-top: 0px;
+            font-size: 1.4em;
+            font-weight: bold;
+            line-height: 1px;
+        }
+
+        body a {
+            color: #08306b;
+            /* #004C99; */
+            text-decoration: none;
+        }
+
+        div.content ul {
+            list-style: square outside none;
+            padding-left: 20px;
+        }
+
+        div.content ol {
+            list-style: square outside none;
+            padding-left: 20px;
+        }
+
+        div.content li {
+            line-height: 24px;
+            padding-bottom: 2px;
+        }
+
+        div.content div.float-right {
+            float: right;
+        }
+    </style>
+
+    <style>
+        hr.new {
+            border-top: 1.3px silver solid;
+            /* padding-top:10px; */
+        }
+    </style>
+
+    </style>
+    <!-- publications -->
+    <style type="text/css">
+        div.publications>ol>li {
+            padding-bottom: 12px;
+        }
+    </style>
+
+    <!-- css for bio -->
+    <style type="text/css">
+        div.bio>div.left {
+            float: left;
+            width: 250px;
+        }
+
+        div.bio>div.left>img.me {
+            max-height: 280px;
+            margin: 10px;
+            /* max-width:230px; */
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        div.bio>div.right {
+            margin: 30px 0 0 400px;
+            min-height: 300px;
+            line-height: 34px;
+        }
+
+        div.bio>div.right>div.line.name {
+            padding: 30px 0;
+            line-height: 40px;
+        }
+
+        div.bio>div.right>div.name>span.name,
+        div.bio>div.right>div.name>span.chineseName {
+            font-size: 1.7em;
+            font-weight: bold;
+        }
+    </style>
+
+    <div class="content bio">
+        <div class="left">
+            <img class='me' src="./images/me.jpg"></img><br />
+        </div>
+        <div class="right">
+            <div class="line name">
+                <span class="name">Puhe Hao</span>
+                <span class="chineseName">(郝谱合)</span>
+            </div>
+            <div class="affliation">
+                <p> 南京邮电大学计算机学院 信息安全 大四</p>
+                <p> Fourth-year Undergraduate</p>
+
+                <a href="https://cs.njupt.edu.cn" target="_blank">School of Computer Science </a></br>
+                <a href="https://www.njupt.edu.cn" target="_blank">Nanjing University of Posts and
+                    Telecommunications</a></br>
+                <p> </p>
+                <p>Email: B20031122@njupt.edu.cn</p>
+            </div>
+        </div>
+        <hr class="new">
+    </div>
+
+    <!-- quick link -->
+    <style type="text/css">
+        div.quickLink {
+            font-size: 1.2em;
+            min-height: 70px;
+        }
+
+        div.quickLink>.block {
+            display: block;
+            float: left;
+            padding: 10px 0px;
+            text-align: center;
+            /* border:1px silver solid; */
+            /* border-radius:5px; */
+            /* box-shadow:2px 2px 1px silver; */
+            width: 140px;
+            margin-right: 30px;
+            margin-left: 20px;
+            /* margin-top:20px; */
+            cursor: pointer;
+            border-top: 1px silver solid;
+        }
+    </style>
+
+    <!-- <div class="content quickLink">
+        <a class="block" href="#biography">Biography</a>
+        <a class="block" href="#honors">Honors</a>
+        <a class="block" href="#publications">Publications</a>
+        <a class="block" href="#teaching">Talks</a>
+    </div>    -->
+
+    <div class="content intro" name='biography'>
+        <a name="biography"></a>
+        <div class='title'>About me</div>
+        I am currently a Fourth-year Undergraduate with the School of Computer Science, Nanjing university of Posts
+        and telecommunications (NJUPT). I am fortunate to be advised by Prof. Guozi Sun. My research interests include
+        privacy, blockchain, and federated learning. My current research project aims at decentralizing and securing
+        federated learning with the help of blockchain.
+        <hr class="new">
+    </div>
+
+    <div class="content publications" name='publications'>
+        <a name="publications"></a>
+        <div class="title">Publications</div>
+        <ol>
+            <li>
+                <b>
+                    <font color=#4682B4>[GlobeCom 2023]</font>
+                </b> <b>
+                    <font color=#08306b>A Privacy-Preserving Data Sharing Scheme Based on Blockchain for Vehicular Edge
+                        Networks</font>
+                </b>
+                <br> <b> Puhe Hao </b>, Tianyu Pan, Rui Han, Xiao Qu, Zhexuan Yang, Guozi Sun*
+                <br> in <i> IEEE Global Communications Conference <font color=#DC143C>(CCF-C)</font> </i>, 2023.
+            </li>
+
+            <li>
+                <b>
+                    <font color=#4682B4>[APNOMS 2023]</font>
+                </b> <b>
+                    <font color=#08306b>RPChain: Regulatable Privacy-Preserving Group Data Sharing Based on Consortium
+                        Blockchain
+                    </font>
+                </b>
+                <br> <b> Puhe Hao </b>, Tianyu Pan, Rui Han, Xiao Qu, Zhexuan Yang, Guozi Sun*
+                <br> in <i> Asia-Pacific Network Operations and Management Symposium <font color=#DC143C>
+                        (CCF-C)</font> </i>, 2023.
+            </li>
+
+
+
+        </ol>
+        <hr class="new">
+
+    </div>
+    <div class="content honors" name='honors'>
+        <a name="honors"></a>
+        <div class="title">Honors and Awards</div>
+        <ul>
+            <li>Pacesetter for innovation of NJUPT
+                <font color=#DC143C>(2 out of the department)</font> in 2023
+            </li>
+            <li>“China telecom” Enterprise Scholar Ship <font color=#DC143C>(top-ranked 1%) </font> in 2023</li>
+            <li>
+                The International Mathematical Contest In Modeling <font color=#DC143C> Meritorious Winner</font>
+                in 2022</li>
+            <li>“YIYI” Enterprise Scholar Ship <font color=#DC143C>(top-ranked 1%) </font> in 2021 </li>
+        </ul>
+        <hr class="new">
+    </div>
+
+    </div>
+    <div class="content recent news" name='news'>
+        <a name="news"></a>
+        <div class="title">Recent News</div>
+        <ul>
+            <li>I am currently working on my B.Eng thesis project on decentralized federated learning.
+            </li>
+            <li>I am presenting my paper in <a href="https://globecom2023.ieee-globecom.org">Globecom 2023</a> on site
+                in Kuala
+                Lumpur, Malaysia.</li>
+        </ul>
+        <hr class="new">
+    </div>
+
+</body>
+
+</html>
